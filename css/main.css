@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #e3e3e3;
+  background: lightgreen;
 }
 
 
@@ -63,6 +63,12 @@ footer {
     background-color: purple ;
   }
 
+ .col-3 {
+  width: 50%;
+  height: 320px;
+ }
+ 
+
   #column-1 {
     background-color: red; 
   }
@@ -73,13 +79,17 @@ footer {
 
   #column-3 {
     background-color: yellow;
+	width: 100%;
   }
 
   footer {
     background-color: grey;
   }
   
+
 }
+
+
 
 
 /*---------- Desktops ----------*/
@@ -87,7 +97,11 @@ footer {
   header {
     background-color: purple;
   }
-
+  
+   .col-3 {
+  width: 33.3%;
+  height: 320px;
+ }
   #column-1 {
     background-color: green;
   }
@@ -98,10 +112,12 @@ footer {
 
   #column-3 {
     background-color: orange;
+	width: 33.3%;
   }
 
   footer {
     background-color: grey;
   }
-   
+  
+ 
 }
